@@ -1,0 +1,23 @@
+<Solution>
+    <Configurations>
+        <Platform Name="Any CPU" />
+    </Configurations>
+    <Folder Name="/src/">
+        <Project Path="src/LeaveManagement.Domain/LeaveManagement.Domain.csproj" />
+        <Project Path="src/LeaveManagement.Application/LeaveManagement.Application.csproj" />
+        <Project Path="src/LeaveManagement.EntityFrameworkCore/LeaveManagement.EntityFrameworkCore.csproj" />
+        <Project Path="src/LeaveManagement.Domain.Shared/LeaveManagement.Domain.Shared.csproj" />
+        <Project Path="src/LeaveManagement.Application.Contracts/LeaveManagement.Application.Contracts.csproj" />
+        <Project Path="src/LeaveManagement.HttpApi/LeaveManagement.HttpApi.csproj" />
+        <Project Path="src/LeaveManagement.HttpApi.Client/LeaveManagement.HttpApi.Client.csproj" />
+        <Project Path="src/LeaveManagement.HttpApi.Host/LeaveManagement.HttpApi.Host.csproj" />
+        <Project Path="src/LeaveManagement.DbMigrator/LeaveManagement.DbMigrator.csproj" />
+    </Folder>
+    <Folder Name="/test/">
+        <Project Path="test/LeaveManagement.Application.Tests/LeaveManagement.Application.Tests.csproj" />
+        <Project Path="test/LeaveManagement.EntityFrameworkCore.Tests/LeaveManagement.EntityFrameworkCore.Tests.csproj" />
+        <Project Path="test/LeaveManagement.TestBase/LeaveManagement.TestBase.csproj" />
+        <Project Path="test/LeaveManagement.Domain.Tests/LeaveManagement.Domain.Tests.csproj" />
+        <Project Path="test/LeaveManagement.HttpApi.Client.ConsoleTestApp/LeaveManagement.HttpApi.Client.ConsoleTestApp.csproj" />
+    </Folder>
+</Solution>

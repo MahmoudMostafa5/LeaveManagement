@@ -1,0 +1,15 @@
+{
+  "Culture": "en",
+  "Texts": {
+    "AppName": "LeaveManagement",
+    "Menu:Home": "Home",
+    "LongWelcomeMessage": "Welcome to the application. This is a startup project based on the ABP framework. For more information visit",
+    "Welcome": "Welcome",
+    "Permission:LeaveRequests": "Leave Requests",
+    "Permission:Create": "Create",
+    "Permission:Approve": "Approve / Reject",
+    "Permission:Delete": "Delete",
+    "LeaveManagement:InvalidLeaveDates": "End date cannot be before start date.",
+    "LeaveManagement:LeaveAlreadyProcessed": "This leave request has already been processed."
+  }
+}

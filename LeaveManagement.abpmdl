@@ -1,0 +1,114 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "5.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.Account": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.Identity": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    },
+    "Volo.Abp.BlobStoring.Database": {
+      "version": "10.7.0",
+      "isInstalled": true,
+      "creationTime": "10/30/2026 11:52:00 +00:00"
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "LeaveManagement.Application": {
+      "path": "src/LeaveManagement.Application/LeaveManagement.Application.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.Application.Tests": {
+      "path": "test/LeaveManagement.Application.Tests/LeaveManagement.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "LeaveManagement.Domain.Shared": {
+      "path": "src/LeaveManagement.Domain.Shared/LeaveManagement.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.Application.Contracts": {
+      "path": "src/LeaveManagement.Application.Contracts/LeaveManagement.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.HttpApi": {
+      "path": "src/LeaveManagement.HttpApi/LeaveManagement.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.HttpApi.Client": {
+      "path": "src/LeaveManagement.HttpApi.Client/LeaveManagement.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.EntityFrameworkCore.Tests": {
+      "path": "test/LeaveManagement.EntityFrameworkCore.Tests/LeaveManagement.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "LeaveManagement.EntityFrameworkCore": {
+      "path": "src/LeaveManagement.EntityFrameworkCore/LeaveManagement.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.TestBase": {
+      "path": "test/LeaveManagement.TestBase/LeaveManagement.TestBase.abppkg",
+      "folder": "test"
+    },
+    "LeaveManagement.Domain.Tests": {
+      "path": "test/LeaveManagement.Domain.Tests/LeaveManagement.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "LeaveManagement.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/LeaveManagement.HttpApi.Client.ConsoleTestApp/LeaveManagement.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "LeaveManagement.DbMigrator": {
+      "path": "src/LeaveManagement.DbMigrator/LeaveManagement.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.HttpApi.Host": {
+      "path": "src/LeaveManagement.HttpApi.Host/LeaveManagement.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "LeaveManagement.Domain": {
+      "path": "src/LeaveManagement.Domain/LeaveManagement.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
